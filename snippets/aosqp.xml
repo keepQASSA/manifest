@@ -80,6 +80,7 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="aosqp" />
   <project path="development" name="development" remote="aosqp" />
   <project path="device/aosqp/sepolicy" name="device_aosqp_sepolicy" remote="aosqp" />
+  <project path="libcore" name="libcore" remote="aosqp" />
   <project path="manifest" name="manifest" remote="aosqp" />
   <project path="platform_testing" name="platform_testing" remote="aosqp" />
   <project path="vendor/aosqp" name="vendor_aosqp" remote="aosqp" />
@@ -140,17 +141,20 @@
   <project path="external/gptfdisk" name="external_gptfdisk" remote="aosqp" />
   <project path="external/icu" name="external_icu" remote="aosqp" />
   <project path="external/libaom" name="external_libaom" remote="aosqp" />
+  <project path="external/libavc" name="external_libavc" remote="aosqp" />
   <project path="external/libcxx" name="external_libcxx" remote="aosqp" />
   <project path="external/libexif" name="external_libexif" remote="aosqp" />
   <project path="external/libhevc" name="external_libhevc" remote="aosqp" />
   <project path="external/libtextclassifier" name="external_libtextclassifier" remote="aosqp" />
   <project path="external/motorola/faceunlock-res" name="external_motorola_faceunlock-res" remote="aosqp" />
+  <project path="external/okhttp" name="external_okhttp" remote="aosqp" />
   <project path="external/selinux" name="external_selinux" remote="aosqp" />
   <project path="external/sonivox" name="external_sonivox" remote="aosqp" />
   <project path="external/skia" name="external_skia" remote="aosqp" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="aosqp" />
   <project path="external/tinycompress" name="external_tinycompress" remote="aosqp" />
   <project path="external/toybox" name="external_toybox" remote="aosqp" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="aosqp" />
 
   <!-- System Repos -->
   <project path="system/apex" name="system_apex" remote="aosqp" />

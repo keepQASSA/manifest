@@ -61,16 +61,19 @@
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/libaom" />
+  <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libtextclassifier" />
+  <remove-project name="platform/external/okhttp" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/sonivox" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
@@ -91,6 +94,7 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/development" />
+  <remove-project name="platform/libcore" />
   <remove-project name="platform/platform_testing" />
 
   <!-- Hardware repos -->

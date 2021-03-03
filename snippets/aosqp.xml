@@ -136,6 +136,7 @@
   <project path="external/aac" name="external_aac" remote="aosqp" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="aosqp" />
   <project path="external/cldr" name="external_cldr" remote="aosqp" />
+  <project path="external/dnsmasq" name="external_dnsmasq" remote="aosqp" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="aosqp" />
   <project path="external/freetype" name="external_freetype" remote="aosqp" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="aosqp" />
@@ -154,6 +155,7 @@
   <project path="external/tinyalsa" name="external_tinyalsa" remote="aosqp" />
   <project path="external/tinycompress" name="external_tinycompress" remote="aosqp" />
   <project path="external/toybox" name="external_toybox" remote="aosqp" />
+  <project path="external/v8" name="external_v8" remote="aosqp" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="aosqp" />
 
   <!-- System Repos -->
@@ -161,6 +163,7 @@
   <project path="system/bpf" name="system_bpf" remote="aosqp" />
   <project path="system/bt" name="system_bt" remote="aosqp" />
   <project path="system/extras" name="system_extras" remote="aosqp" />
+  <project path="system/connectivity/wificond" name="system_connectivity_wificond" remote="aosqp" />
   <project path="system/core" name="system_core" remote="aosqp" />
   <project path="system/hardware/interfaces" name="system_hardware_interfaces" remote="aosqp" />
   <project path="system/keymaster" name="system_keymaster" remote="aosqp" />
@@ -170,6 +173,7 @@
   <project path="system/security" name="system_security" remote="aosqp" />
   <project path="system/sepolicy" name="system_sepolicy" remote="aosqp" />
   <project path="system/timezone" name="system_timezone" remote="aosqp" />
+  <project path="system/tools/hidl" name="system_tools_hidl" remote="aosqp" />
   <project path="system/update_engine" name="system_update_engine" remote="aosqp" />
   <project path="system/vold" name="system_vold" remote="aosqp" />
 

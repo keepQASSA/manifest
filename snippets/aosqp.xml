@@ -137,6 +137,7 @@
   <!-- External repos -->
   <project path="external/aac" name="external_aac" remote="aosqp" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="aosqp" />
+  <project path="external/chromium-libpac" name="external_chromium-libpac" remote="aosqp" />
   <project path="external/cldr" name="external_cldr" remote="aosqp" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="aosqp" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="aosqp" />

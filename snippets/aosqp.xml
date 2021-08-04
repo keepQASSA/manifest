@@ -157,6 +157,7 @@
   <project path="external/selinux" name="external_selinux" remote="aosqp" />
   <project path="external/sonivox" name="external_sonivox" remote="aosqp" />
   <project path="external/skia" name="external_skia" remote="aosqp" />
+  <project path="external/sqlite" name="external_sqlite" remote="aosqp" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="aosqp" />
   <project path="external/tinycompress" name="external_tinycompress" remote="aosqp" />
   <project path="external/toybox" name="external_toybox" remote="aosqp" />
@@ -174,6 +175,7 @@
   <project path="system/keymaster" name="system_keymaster" remote="aosqp" />
   <project path="system/libfmq" name="system_libfmq" remote="aosqp" />
   <project path="system/libufdt" name="system_libufdt" remote="aosqp" />
+  <project path="system/libhwbinder" name="system_libhwbinder" remote="aosqp" />
   <project path="system/netd" name="system_netd" remote="aosqp" />
   <project path="system/nfc" name="system_nfc" remote="aosqp" />
   <project path="system/security" name="system_security" remote="aosqp" />

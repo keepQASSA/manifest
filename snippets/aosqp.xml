@@ -161,6 +161,7 @@
   <project path="external/tinyalsa" name="external_tinyalsa" remote="aosqp" />
   <project path="external/tinycompress" name="external_tinycompress" remote="aosqp" />
   <project path="external/toybox" name="external_toybox" remote="aosqp" />
+  <project path="external/tremolo" name="external_tremolo" remote="aosqp" />
   <project path="external/v8" name="external_v8" remote="aosqp" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="aosqp" />
 

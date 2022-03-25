@@ -123,7 +123,6 @@
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="aosqp" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="aosqp" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="aosqp" />
-  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="aosqp" />
   <project path="packages/modules/CaptivePortalLogin" name="packages_modules_CaptivePortalLogin" remote="aosqp" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="aosqp" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="aosqp" />

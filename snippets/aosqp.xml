@@ -116,6 +116,7 @@
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="aosqp" />
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="aosqp" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="aosqp" />
+  <project path="packages/apps/KeyChain" name="packages_apps_KeyChain" remote="aosqp" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="aosqp" />
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="aosqp" />
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="aosqp" />

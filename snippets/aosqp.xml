@@ -125,6 +125,7 @@
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="aosqp" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="aosqp" />
   <project path="packages/modules/CaptivePortalLogin" name="packages_modules_CaptivePortalLogin" remote="aosqp" />
+  <project path="packages/providers/CalendarProvider" name="packages_providers_CalendarProvider" remote="aosqp" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="aosqp" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="aosqp" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="aosqp" />

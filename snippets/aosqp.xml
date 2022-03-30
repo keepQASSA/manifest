@@ -107,7 +107,6 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="aosqp" />
-  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="aosqp" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="aosqp" />
   <project path="packages/apps/Car/Settings" name="packages_apps_Car_Settings" remote="aosqp" />
   <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" remote="aosqp" />

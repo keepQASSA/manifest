@@ -110,14 +110,20 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="aosqp" />
+  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="aosqp" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="aosqp" />
   <project path="packages/apps/Car/Settings" name="packages_apps_Car_Settings" remote="aosqp" />
   <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" remote="aosqp" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="aosqp" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="aosqp" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="aosqp" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="aosqp" />
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="aosqp" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="aosqp" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="aosqp" />
   <project path="packages/apps/KeyChain" name="packages_apps_KeyChain" remote="aosqp" />
   <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" remote="aosqp" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="aosqp" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="aosqp" />
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="aosqp" />
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="aosqp" />
@@ -127,6 +133,8 @@
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="aosqp" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="aosqp" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="aosqp" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="aosqp" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="aosqp" />
   <project path="packages/modules/CaptivePortalLogin" name="packages_modules_CaptivePortalLogin" remote="aosqp" />
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="aosqp" />
   <project path="packages/providers/CalendarProvider" name="packages_providers_CalendarProvider" remote="aosqp" />

@@ -202,5 +202,6 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/ndk" name="prebuilts_abi-dumps_ndk" remote="aosqp" />
+  <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="aosqp" />
 
 </manifest>

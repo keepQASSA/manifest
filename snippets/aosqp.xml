@@ -200,4 +200,7 @@
   <project path="system/update_engine" name="system_update_engine" remote="aosqp" />
   <project path="system/vold" name="system_vold" remote="aosqp" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/abi-dumps/ndk" name="prebuilts_abi-dumps_ndk" remote="aosqp" />
+
 </manifest>

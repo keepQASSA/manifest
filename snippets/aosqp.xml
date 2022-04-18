@@ -116,6 +116,7 @@
   <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" remote="aosqp" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="aosqp" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="aosqp" />
+  <project path="packages/apps/Dirac" name="packages_apps_Dirac" remote="aosqp" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="aosqp" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="aosqp" />
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="aosqp" />

@@ -134,6 +134,7 @@
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="aosqp" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="aosqp" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="aosqp" />
+  <project path="packages/apps/keepQASSA" name="packages_apps_keepQASSA" remote="aosqp" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="aosqp" />
   <project path="packages/modules/CaptivePortalLogin" name="packages_modules_CaptivePortalLogin" remote="aosqp" />
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="aosqp" />

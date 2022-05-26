@@ -64,6 +64,7 @@
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/libaom" />
   <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libcxx" />

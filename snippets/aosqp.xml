@@ -159,6 +159,7 @@
   <project path="external/freetype" name="external_freetype" remote="aosqp" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="aosqp" />
   <project path="external/icu" name="external_icu" remote="aosqp" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="aosqp" />
   <project path="external/libaom" name="external_libaom" remote="aosqp" />
   <project path="external/libavc" name="external_libavc" remote="aosqp" />
   <project path="external/libcxx" name="external_libcxx" remote="aosqp" />

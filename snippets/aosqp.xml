@@ -46,6 +46,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="aosqp" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="aosqp" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="aosqp" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote"aosqp" />
 
   <!-- Custom additions -->
   <project path="prebuilts/tools-aosqp" name="prebuilts_tools-aosqp" remote="aosqp" clone-depth="1" />

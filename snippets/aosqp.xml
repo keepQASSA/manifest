@@ -89,6 +89,7 @@
   <project path="vendor/aosqp" name="vendor_aosqp" remote="aosqp" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="aosqp" />
   <project path="vendor/google-customization" name="vendor_google-customization" remote="aosqp" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="aosqp" />
 
   <!-- Hardware repos -->
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="aosqp" />
@@ -198,6 +199,7 @@
   <project path="system/security" name="system_security" remote="aosqp" />
   <project path="system/sepolicy" name="system_sepolicy" remote="aosqp" />
   <project path="system/timezone" name="system_timezone" remote="aosqp" />
+  <project path="system/tools/aidl" name="system_tools_aidl" remote="aosqp" />
   <project path="system/tools/hidl" name="system_tools_hidl" remote="aosqp" />
   <project path="system/update_engine" name="system_update_engine" remote="aosqp" />
   <project path="system/vold" name="system_vold" remote="aosqp" />

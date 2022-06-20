@@ -86,10 +86,6 @@
   <project path="libcore" name="libcore" remote="aosqp" />
   <project path="manifest" name="manifest" remote="aosqp" />
   <project path="platform_testing" name="platform_testing" remote="aosqp" />
-  <project path="vendor/aosqp" name="vendor_aosqp" remote="aosqp" />
-  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="aosqp" />
-  <project path="vendor/google-customization" name="vendor_google-customization" remote="aosqp" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="aosqp" />
 
   <!-- Hardware repos -->
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="aosqp" />
@@ -204,8 +200,14 @@
   <project path="system/update_engine" name="system_update_engine" remote="aosqp" />
   <project path="system/vold" name="system_vold" remote="aosqp" />
 
-  <!-- Prebuilts -->
+  <!-- Prebuilts repos -->
   <project path="prebuilts/abi-dumps/ndk" name="prebuilts_abi-dumps_ndk" remote="aosqp" />
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="aosqp" />
+
+  <!-- Vendor repos -->
+  <project path="vendor/aosqp" name="vendor_aosqp" remote="aosqp" />
+  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="aosqp" />
+  <project path="vendor/google-customization" name="vendor_google-customization" remote="aosqp" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="aosqp" />
 
 </manifest>

@@ -1,35 +1,34 @@
-# Android Open Source `QASSA` Project #
+# #keepQASSA #
 
-## Building AOSQP
-### Create a directory
-
+### Create a directory ###
 ```bash
-
  mkdir -p ~/rom/aosqp
  cd ~/rom/aosqp
 ```
 
 ### Sync ###
-
+#### Initialize local repository ####
 ```bash
-
-# Initialize local repository
 repo init -u ssh://git@github.com/AOSQP/manifest -b Q
+```
 
-# Sync
+#### Sync ####
+```bash
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 ### Build ###
-
+#### Set up environment ####
 ```bash
-
-# Set up environment
 $ . build/envsetup.sh
+```
 
-# Choose a target
+#### Choose a target ####
+```bash
 $ lunch aosqp_$device-userdebug
+```
 
-# Build the code
+#### Build the code ####
+```bash
 $ mka qassa -j$(nproc --all)
 ```

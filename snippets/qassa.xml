@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="qassa"
+          fetch="ssh://git@github.com/keepQASSA"
+          revision="Q" />
+
+  <!-- CodeAurora additions -->
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="qassa" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="qassa" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="qassa" />
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="qassa">
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- for AOSP sdm845, we override os_pickup.mk -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
+  </project>
+  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="qassa" />
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="qassa" />
+  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="qassa" />
+  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom-caf_sdm845_display" remote="qassa" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="qassa" />
+  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="qassa" />
+  <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="qassa" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="qassa" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="qassa" />
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="qassa" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="qassa" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_bluetooth_ext" remote="qassa" />
+
+  <!-- Custom additions -->
+  <project path="prebuilts/tools-qassa" name="prebuilts_tools-qassa" remote="qassa" clone-depth="1" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="qassa" />
+  <project path="frameworks/base" name="frameworks_base" remote="qassa" />
+  <project path="frameworks/minikin" name="frameworks_minikin" remote="qassa" />
+  <project path="frameworks/native" name="frameworks_native" remote="qassa" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="qassa" />
+  <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="qassa" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="qassa" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="qassa" />
+  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="qassa" />
+
+  <!-- General repos -->
+  <project path="art" name="art" remote="qassa" />
+  <project path="bionic" name="bionic" remote="qassa" />
+  <project path="build/make" name="build" remote="qassa">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="qassa" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="build/blueprint" name="build_blueprint" remote="qassa" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="qassa" />
+  <project path="development" name="development" remote="qassa" />
+  <project path="device/qassa/sepolicy" name="device_qassa_sepolicy" remote="qassa" />
+  <project path="libcore" name="libcore" remote="qassa" />
+  <project path="manifest" name="manifest" remote="qassa" />
+  <project path="platform_testing" name="platform_testing" remote="qassa" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="qassa" />
+  <project path="hardware/qassa/interfaces" name="hardware_qassa_interfaces" remote="qassa" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="qassa" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="qassa" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="qassa" />
+  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="qassa" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="qassa" />
+  <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" remote="qassa" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="qassa" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="qassa" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="qassa" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="qassa" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="qassa" />
+  <project path="hardware/qcom/sdm845/media" name="hardware_qcom_sdm845_media" remote="qassa" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="hardware_qcom_sdm845_data_ipacfg-mgr" remote="qassa" >
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
+  </project>
+  <project path="hardware/ril" name="hardware_ril" remote="qassa" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="qassa" />
+  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="qassa" />
+  <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="qassa" />
+  <project path="packages/apps/Car/Settings" name="packages_apps_Car_Settings" remote="qassa" />
+  <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" remote="qassa" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="qassa" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="qassa" />
+  <project path="packages/apps/Dirac" name="packages_apps_Dirac" remote="qassa" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="qassa" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="qassa" />
+  <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="qassa" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="qassa" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="qassa" />
+  <project path="packages/apps/KeyChain" name="packages_apps_KeyChain" remote="qassa" />
+  <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" remote="qassa" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="qassa" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="qassa" />
+  <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="qassa" />
+  <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="qassa" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="qassa" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="qassa" />
+  <project path="packages/apps/Snap" name="packages_apps_Snap" remote="qassa" />
+  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="qassa" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="qassa" />
+  <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="qassa" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="qassa" />
+  <project path="packages/apps/keepQASSA" name="packages_apps_keepQASSA" remote="qassa" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="qassa" />
+  <project path="packages/modules/CaptivePortalLogin" name="packages_modules_CaptivePortalLogin" remote="qassa" />
+  <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="qassa" />
+  <project path="packages/providers/CalendarProvider" name="packages_providers_CalendarProvider" remote="qassa" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="qassa" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="qassa" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="qassa" />
+  <project path="packages/resources/devicesettings-custom" name="packages_resources_devicesettings-custom" remote="qassa" />
+  <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="qassa" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="qassa" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="qassa" />
+
+  <!-- External repos -->
+  <project path="external/aac" name="external_aac" remote="qassa" />
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="qassa" />
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="qassa" />
+  <project path="external/chromium-libpac" name="external_chromium-libpac" remote="qassa" />
+  <project path="external/cldr" name="external_cldr" remote="qassa" />
+  <project path="external/dnsmasq" name="external_dnsmasq" remote="qassa" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="qassa" />
+  <project path="external/freetype" name="external_freetype" remote="qassa" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="qassa" />
+  <project path="external/icu" name="external_icu" remote="qassa" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="qassa" />
+  <project path="external/libaom" name="external_libaom" remote="qassa" />
+  <project path="external/libavc" name="external_libavc" remote="qassa" />
+  <project path="external/libcxx" name="external_libcxx" remote="qassa" />
+  <project path="external/libexif" name="external_libexif" remote="qassa" />
+  <project path="external/libhevc" name="external_libhevc" remote="qassa" />
+  <project path="external/libtextclassifier" name="external_libtextclassifier" remote="qassa" />
+  <project path="external/motorola/faceunlock-res" name="external_motorola_faceunlock-res" remote="qassa" />
+  <project path="external/okhttp" name="external_okhttp" remote="qassa" />
+  <project path="external/selinux" name="external_selinux" remote="qassa" />
+  <project path="external/sonivox" name="external_sonivox" remote="qassa" />
+  <project path="external/skia" name="external_skia" remote="qassa" />
+  <project path="external/sqlite" name="external_sqlite" remote="qassa" />
+  <project path="external/tinyalsa" name="external_tinyalsa" remote="qassa" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="qassa" />
+  <project path="external/toybox" name="external_toybox" remote="qassa" />
+  <project path="external/tremolo" name="external_tremolo" remote="qassa" />
+  <project path="external/v8" name="external_v8" remote="qassa" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="qassa" />
+
+  <!-- System Repos -->
+  <project path="system/apex" name="system_apex" remote="qassa" />
+  <project path="system/bpf" name="system_bpf" remote="qassa" />
+  <project path="system/bt" name="system_bt" remote="qassa" />
+  <project path="system/extras" name="system_extras" remote="qassa" />
+  <project path="system/connectivity/wificond" name="system_connectivity_wificond" remote="qassa" />
+  <project path="system/core" name="system_core" remote="qassa" />
+  <project path="system/hardware/interfaces" name="system_hardware_interfaces" remote="qassa" />
+  <project path="system/keymaster" name="system_keymaster" remote="qassa" />
+  <project path="system/libfmq" name="system_libfmq" remote="qassa" />
+  <project path="system/libufdt" name="system_libufdt" remote="qassa" />
+  <project path="system/libhwbinder" name="system_libhwbinder" remote="qassa" />
+  <project path="system/netd" name="system_netd" remote="qassa" />
+  <project path="system/nfc" name="system_nfc" remote="qassa" />
+  <project path="system/security" name="system_security" remote="qassa" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="qassa" />
+  <project path="system/timezone" name="system_timezone" remote="qassa" />
+  <project path="system/tools/aidl" name="system_tools_aidl" remote="qassa" />
+  <project path="system/tools/hidl" name="system_tools_hidl" remote="qassa" />
+  <project path="system/update_engine" name="system_update_engine" remote="qassa" />
+  <project path="system/vold" name="system_vold" remote="qassa" />
+
+  <!-- Prebuilts repos -->
+  <project path="prebuilts/abi-dumps/ndk" name="prebuilts_abi-dumps_ndk" remote="qassa" />
+  <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="qassa" />
+
+  <!-- Vendor repos -->
+  <project path="vendor/qassa" name="vendor_qassa" remote="qassa" />
+  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="qassa" />
+  <project path="vendor/google-customization" name="vendor_google-customization" remote="qassa" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="qassa" />
+
+</manifest>

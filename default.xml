@@ -800,7 +800,7 @@
   <!-- Add all PixelExperience repos -->
   <include name="snippets/pixel.xml" />
 
-  <!-- Add all AOSQP repos -->
-  <include name="snippets/aosqp.xml" />
+  <!-- Add all QASSA repos -->
+  <include name="snippets/qassa.xml" />
 
 </manifest>

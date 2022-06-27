@@ -2,14 +2,14 @@
 
 ### Create a directory ###
 ```bash
- mkdir -p ~/rom/aosqp
- cd ~/rom/aosqp
+ mkdir -p ~/rom/qassa
+ cd ~/rom/qassa
 ```
 
 ### Sync ###
 #### Initialize local repository ####
 ```bash
-repo init -u ssh://git@github.com/AOSQP/manifest -b Q
+repo init -u ssh://git@github.com/keepQASSA/manifest -b Q
 ```
 
 #### Sync ####
@@ -25,7 +25,7 @@ $ . build/envsetup.sh
 
 #### Choose a target ####
 ```bash
-$ lunch aosqp_$device-userdebug
+$ lunch qassa_$device-userdebug
 ```
 
 #### Build the code ####

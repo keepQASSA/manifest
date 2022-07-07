@@ -62,6 +62,7 @@
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="qassa" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="qassa" />
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="qassa" />
+  <project path="frameworks/rs" name="frameworks_rs" remote="qassa" />
 
   <!-- General repos -->
   <project path="art" name="art" remote="qassa" />
@@ -167,6 +168,7 @@
   <project path="external/libtextclassifier" name="external_libtextclassifier" remote="qassa" />
   <project path="external/motorola/faceunlock-res" name="external_motorola_faceunlock-res" remote="qassa" />
   <project path="external/okhttp" name="external_okhttp" remote="qassa" />
+  <project path="external/openssh" name="external_openssh" remote="qassa" />
   <project path="external/selinux" name="external_selinux" remote="qassa" />
   <project path="external/sonivox" name="external_sonivox" remote="qassa" />
   <project path="external/skia" name="external_skia" remote="qassa" />
@@ -209,5 +211,6 @@
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="qassa" />
   <project path="vendor/google-customization" name="vendor_google-customization" remote="qassa" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="qassa" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="qassa" />
 
 </manifest>

@@ -208,7 +208,7 @@
 
   <!-- Vendor repos -->
   <project path="vendor/qassa" name="vendor_qassa" remote="qassa" />
-  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="qassa" />
+  <project path="vendor/keepQASSA" name="vendor_keepQASSA" remote="qassa" />
   <project path="vendor/google-customization" name="vendor_google-customization" remote="qassa" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="qassa" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="qassa" />

@@ -145,6 +145,7 @@
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="qassa" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="qassa" />
   <project path="packages/resources/devicesettings-custom" name="packages_resources_devicesettings-custom" remote="qassa" />
+  <project path="packages/services/Car" name="packages_services_Car" remote="qassa" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="qassa" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="qassa" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="qassa" />

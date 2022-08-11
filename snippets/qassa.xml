@@ -5,6 +5,10 @@
           fetch="ssh://git@github.com/keepQASSA"
           revision="Q" />
 
+  <remote name="qassa-gitlab"
+          fetch="https://gitlab.com/QASSA"
+          revision="Q" />
+
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="qassa" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="qassa" />
@@ -210,6 +214,7 @@
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="qassa" />
 
   <!-- Vendor repos -->
+  <project path="vendor/gapps" name="vendor_gapps" remote="qassa-gitlab" clone-depth="1" />
   <project path="vendor/qassa" name="vendor_qassa" remote="qassa" />
   <project path="vendor/keepQASSA" name="vendor_keepQASSA" remote="qassa" />
   <project path="vendor/google-customization" name="vendor_google-customization" remote="qassa" />

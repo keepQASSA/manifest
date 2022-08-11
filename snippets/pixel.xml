@@ -6,18 +6,10 @@
           revision="ten"
           review="gerrit.pixelexperience.org" />
 
-  <remote name="pixel-gitlab"
-          fetch="https://gitlab.com/PixelExperience"
-          revision="ten" />
-
   <remote name="pixel-gitlab-self-hosted"
           fetch="https://gitlab.pixelexperience.org/android"
           revision="ten" />
 
-  <remote name="gitlab"
-          fetch="https://gitlab.com" />
-
-  <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab-self-hosted" />
 
   <!-- Prebuilts -->

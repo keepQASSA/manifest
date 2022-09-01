@@ -137,6 +137,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="qassa" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="qassa" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="qassa" />
+  <project path="packages/apps/SoftAPManager" name="packages_apps_SoftAPManager" remote="qassa" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="qassa" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="qassa" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="qassa" />

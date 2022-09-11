@@ -61,6 +61,7 @@
   <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/dnsmasq" />
   <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/expat" />
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/icu" />

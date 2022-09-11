@@ -165,6 +165,7 @@
   <project path="external/cldr" name="external_cldr" remote="qassa" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="qassa" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="qassa" />
+  <project path="external/expat" name="external_expat" remote="qassa" />
   <project path="external/freetype" name="external_freetype" remote="qassa" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="qassa" />
   <project path="external/icu" name="external_icu" remote="qassa" />

@@ -152,6 +152,7 @@
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="qassa" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="qassa" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="qassa" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="qassa" />
   <project path="packages/resources/devicesettings-custom" name="packages_resources_devicesettings-custom" remote="qassa" />
   <project path="packages/services/Car" name="packages_services_Car" remote="qassa" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="qassa" />
@@ -225,6 +226,8 @@
   <project path="vendor/keepQASSA" name="vendor_keepQASSA" remote="qassa" />
   <project path="vendor/google-customization" name="vendor_google-customization" remote="qassa" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="qassa" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="vendor_nxp_opensource_halimpl" remote="qassa" revision="Q-pn5xx" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="vendor_nxp_opensource_halimpl" remote="qassa" revision="Q-sn100x" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="qassa" />
 
 </manifest>

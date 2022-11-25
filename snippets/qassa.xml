@@ -5,6 +5,10 @@
           fetch="ssh://git@github.com/keepQASSA"
           revision="Q" />
 
+  <remote name="qassa-staging"
+          fetch="ssh://git@github.com/keepQASSA"
+          revision="Q-staging" />
+
   <remote name="qassa-gitlab"
           fetch="https://gitlab.com/QASSA"
           revision="Q" />
@@ -58,7 +62,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="qassa" />
-  <project path="frameworks/base" name="frameworks_base" remote="qassa" />
+  <project path="frameworks/base" name="frameworks_base" remote="qassa-staging" />
   <project path="frameworks/minikin" name="frameworks_minikin" remote="qassa" />
   <project path="frameworks/native" name="frameworks_native" remote="qassa" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="qassa" />
@@ -87,7 +91,7 @@
   <project path="build/blueprint" name="build_blueprint" remote="qassa" />
   <project path="bootable/recovery" name="bootable_recovery" remote="qassa" />
   <project path="development" name="development" remote="qassa" />
-  <project path="device/qassa/sepolicy" name="device_qassa_sepolicy" remote="qassa" />
+  <project path="device/qassa/sepolicy" name="device_qassa_sepolicy" remote="qassa-staging" />
   <project path="libcore" name="libcore" remote="qassa" />
   <project path="manifest" name="manifest" remote="qassa" />
   <project path="platform_testing" name="platform_testing" remote="qassa" />
@@ -135,7 +139,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="qassa" />
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="qassa" />
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="qassa" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="qassa" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="qassa-staging" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="qassa" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="qassa" />
   <project path="packages/apps/SoftAPManager" name="packages_apps_SoftAPManager" remote="qassa" />
@@ -144,7 +148,7 @@
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="qassa" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="qassa" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="qassa" />
-  <project path="packages/apps/keepQASSA" name="packages_apps_keepQASSA" remote="qassa" />
+  <project path="packages/apps/keepQASSA" name="packages_apps_keepQASSA" remote="qassa-staging" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="qassa" />
   <project path="packages/modules/CaptivePortalLogin" name="packages_modules_CaptivePortalLogin" remote="qassa" />
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="qassa" />
@@ -205,7 +209,7 @@
   <project path="system/libfmq" name="system_libfmq" remote="qassa" />
   <project path="system/libufdt" name="system_libufdt" remote="qassa" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="qassa" />
-  <project path="system/netd" name="system_netd" remote="qassa" />
+  <project path="system/netd" name="system_netd" remote="qassa-staging" />
   <project path="system/nfc" name="system_nfc" remote="qassa" />
   <project path="system/security" name="system_security" remote="qassa" />
   <project path="system/sepolicy" name="system_sepolicy" remote="qassa" />
@@ -222,7 +226,7 @@
 
   <!-- Vendor repos -->
   <project path="vendor/gapps" name="vendor_gapps" remote="qassa-gitlab" clone-depth="1" />
-  <project path="vendor/qassa" name="vendor_qassa" remote="qassa" />
+  <project path="vendor/qassa" name="vendor_qassa" remote="qassa-staging" />
   <project path="vendor/keepQASSA" name="vendor_keepQASSA" remote="qassa" />
   <project path="vendor/google-customization" name="vendor_google-customization" remote="qassa" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="qassa" />

@@ -124,6 +124,7 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="qassa" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="qassa" />
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="qassa" />
+  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="qassa" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="qassa" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="qassa" />
   <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="qassa" />

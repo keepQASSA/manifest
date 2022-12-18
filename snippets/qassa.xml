@@ -67,6 +67,7 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="qassa" />
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="qassa" />
   <project path="frameworks/rs" name="frameworks_rs" remote="qassa" />
+  <project path="frameworks/support/lottie" name="crdroidandroid/android_frameworks_support_lottie" remote="github" revision="10.0" />
 
   <!-- General repos -->
   <project path="art" name="art" remote="qassa" />

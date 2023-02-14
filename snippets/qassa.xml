@@ -233,6 +233,7 @@
   <project path="vendor/nxp/opensource/pn5xx/halimpl" name="vendor_nxp_opensource_halimpl" remote="qassa" revision="Q-pn5xx" />
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="vendor_nxp_opensource_halimpl" remote="qassa" revision="Q-sn100x" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="qassa" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_packages_apps_Bluetooth" remote="qassa" />
 
   <!-- Other additions -->
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />

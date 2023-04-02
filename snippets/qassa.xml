@@ -195,6 +195,7 @@
   <project path="external/tremolo" name="external_tremolo" remote="qassa" />
   <project path="external/v8" name="external_v8" remote="qassa" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="qassa" />
+  <project path="external/zlib" name="external_zlib" remote="qassa" />
 
   <!-- System Repos -->
   <project path="system/apex" name="system_apex" remote="qassa" />

@@ -14,6 +14,10 @@
           fetch="https://gitlab.pixelexperience.org/android"
           revision="ten" />
 
+  <remote  name="ros"
+           fetch="https://github.com/RevengeOS"
+           revision="r11.0" />
+
   <!-- LineageOS -->
   <!-- CodeAurora additions -->
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
@@ -91,5 +95,9 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="pixel" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="pixel" clone-depth="1" />
   <project path="prebuilts/r8" name="prebuilts_r8" remote="pixel" clone-depth="1" />
+
+  <!-- RevengeOS -->
+  <!-- external -->
+  <project path="external/RevengeUI-lib" name="RevengeUI-lib" remote="ros" revision="master" />
 
 </manifest>

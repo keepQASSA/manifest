@@ -151,6 +151,7 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="qassa" />
   <project path="packages/modules/CaptivePortalLogin" name="packages_modules_CaptivePortalLogin" remote="qassa" />
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="qassa" />
+  <project path="packages/overlays/qassa" name="packages_overlays_qassa" remote="qassa" />
   <project path="packages/providers/CalendarProvider" name="packages_providers_CalendarProvider" remote="qassa" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="qassa" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="qassa" />

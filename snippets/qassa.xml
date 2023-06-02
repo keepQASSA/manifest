@@ -5,6 +5,10 @@
           fetch="ssh://git@github.com/keepQASSA"
           revision="Q" />
 
+  <remote name="qassa-g8"
+          fetch="ssh://git@github.com/keepQASSA"
+          revision="Q-g8" />
+
   <remote name="qassa-gitlab"
           fetch="https://gitlab.com/QASSA"
           revision="Q" />
@@ -58,7 +62,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="qassa" />
-  <project path="frameworks/base" name="frameworks_base" remote="qassa" />
+  <project path="frameworks/base" name="frameworks_base" remote="qassa-g8" />
   <project path="frameworks/minikin" name="frameworks_minikin" remote="qassa" />
   <project path="frameworks/ml" name="frameworks_ml" remote="qassa" />
   <project path="frameworks/native" name="frameworks_native" remote="qassa" />
@@ -147,7 +151,7 @@
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="qassa" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="qassa" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="qassa" />
-  <project path="packages/apps/keepQASSA" name="packages_apps_keepQASSA" remote="qassa" />
+  <project path="packages/apps/keepQASSA" name="packages_apps_keepQASSA" remote="qassa-g8" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="qassa" />
   <project path="packages/modules/CaptivePortalLogin" name="packages_modules_CaptivePortalLogin" remote="qassa" />
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="qassa" />
@@ -226,7 +230,7 @@
 
   <!-- Vendor repos -->
   <project path="vendor/gapps" name="vendor_gapps" remote="qassa-gitlab" clone-depth="1" />
-  <project path="vendor/qassa" name="vendor_qassa" remote="qassa" />
+  <project path="vendor/qassa" name="vendor_qassa" remote="qassa-g8" />
   <project path="vendor/keepQASSA" name="vendor_keepQASSA" remote="qassa" />
   <project path="vendor/google-customization" name="vendor_google-customization" remote="qassa" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="qassa" />

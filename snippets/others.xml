@@ -17,6 +17,9 @@
   <remote name="ros"
           fetch="https://github.com/RevengeOS" />
 
+  <remote name="ThankYouMario"
+          fetch="https://github.com/ThankYouMario" />
+
   <!-- LineageOS -->
   <!-- CodeAurora additions -->
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
@@ -98,5 +101,8 @@
   <!-- RevengeOS -->
   <!-- external -->
   <project path="external/RevengeUI-lib" name="RevengeUI-lib" remote="ros" revision="master" />
+
+  <!-- AOSPA ThankYouMario -->
+  <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="ThankYouMario" revision="quartz" />
 
 </manifest>

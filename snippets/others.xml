@@ -14,9 +14,8 @@
           fetch="https://gitlab.pixelexperience.org/android"
           revision="ten" />
 
-  <remote  name="ros"
-           fetch="https://github.com/RevengeOS"
-           revision="r11.0" />
+  <remote name="ros"
+          fetch="https://github.com/RevengeOS" />
 
   <!-- LineageOS -->
   <!-- CodeAurora additions -->

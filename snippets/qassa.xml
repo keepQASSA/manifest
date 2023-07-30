@@ -145,6 +145,7 @@
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="qassa" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="qassa" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="qassa" />
+  <project path="packages/apps/TvSettings" name="packages_apps_TvSettings" remote="qassa" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="qassa" />
   <project path="packages/apps/keepQASSA" name="packages_apps_keepQASSA" remote="qassa" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="qassa" />

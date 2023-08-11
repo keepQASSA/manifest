@@ -239,4 +239,7 @@
 
   <!-- Other additions -->
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
+
+  <!-- Tools repos -->
+  <project path="tools/apksig" name="tools_apksig" remote="qassa" />
 </manifest>

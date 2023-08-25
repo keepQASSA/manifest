@@ -202,6 +202,7 @@
   <project path="system/apex" name="system_apex" remote="qassa" />
   <project path="system/bpf" name="system_bpf" remote="qassa" />
   <project path="system/bt" name="system_bt" remote="qassa" />
+  <project path="system/ca-certificates" name="system_ca-certificates" remote="qassa" />
   <project path="system/extras" name="system_extras" remote="qassa" />
   <project path="system/connectivity/wificond" name="system_connectivity_wificond" remote="qassa" />
   <project path="system/core" name="system_core" remote="qassa" />

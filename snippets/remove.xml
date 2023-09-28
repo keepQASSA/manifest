@@ -73,6 +73,7 @@
   <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libtextclassifier" />
+  <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/okhttp" />
   <remove-project name="platform/external/openssh" />
   <remove-project name="platform/external/selinux" />

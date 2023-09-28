@@ -183,6 +183,7 @@
   <project path="external/libexif" name="external_libexif" remote="qassa" />
   <project path="external/libhevc" name="external_libhevc" remote="qassa" />
   <project path="external/libtextclassifier" name="external_libtextclassifier" remote="qassa" />
+  <project path="external/libvpx" name="external_libvpx" remote="qassa" />
   <project path="external/motorola/faceunlock-res" name="external_motorola_faceunlock-res" remote="qassa" />
   <project path="external/okhttp" name="external_okhttp" remote="qassa" />
   <project path="external/openssh" name="external_openssh" remote="qassa" />

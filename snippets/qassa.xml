@@ -179,6 +179,7 @@
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="qassa" />
   <project path="external/libaom" name="external_libaom" remote="qassa" />
   <project path="external/libavc" name="external_libavc" remote="qassa" />
+  <project path="external/libcups" name="external_libcups" remote="qassa" />
   <project path="external/libcxx" name="external_libcxx" remote="qassa" />
   <project path="external/libexif" name="external_libexif" remote="qassa" />
   <project path="external/libhevc" name="external_libhevc" remote="qassa" />

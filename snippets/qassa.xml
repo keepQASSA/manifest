@@ -188,6 +188,7 @@
   <project path="external/motorola/faceunlock-res" name="external_motorola_faceunlock-res" remote="qassa" />
   <project path="external/okhttp" name="external_okhttp" remote="qassa" />
   <project path="external/openssh" name="external_openssh" remote="qassa" />
+  <project path="external/pdfium" name="external_pdfium" remote="qassa" />
   <project path="external/selinux" name="external_selinux" remote="qassa" />
   <project path="external/sonivox" name="external_sonivox" remote="qassa" />
   <project path="external/skia" name="external_skia" remote="qassa" />

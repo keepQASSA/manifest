@@ -186,6 +186,7 @@
   <project path="external/libtextclassifier" name="external_libtextclassifier" remote="qassa" />
   <project path="external/libvpx" name="external_libvpx" remote="qassa" />
   <project path="external/motorola/faceunlock-res" name="external_motorola_faceunlock-res" remote="qassa" />
+  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="qassa-gitlab" />
   <project path="external/okhttp" name="external_okhttp" remote="qassa" />
   <project path="external/openssh" name="external_openssh" remote="qassa" />
   <project path="external/pdfium" name="external_pdfium" remote="qassa" />

@@ -91,7 +91,7 @@
   <project path="development" name="development" remote="qassa" />
   <project path="device/qassa/sepolicy" name="device_qassa_sepolicy" remote="qassa" />
   <project path="libcore" name="libcore" remote="qassa" />
-  <project path="manifest" name="manifest" remote="qassa" />
+  <project path="manifest" name="manifest" remote="qassa" revision="Q-surya" />
   <project path="platform_testing" name="platform_testing" remote="qassa" />
 
   <!-- Hardware repos -->
@@ -122,7 +122,7 @@
   <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" remote="qassa" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="qassa" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="qassa" />
-  <project path="packages/apps/Dirac" name="packages_apps_Dirac" remote="qassa" />
+  <!--<project path="packages/apps/Dirac" name="packages_apps_Dirac" remote="qassa" />-->
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="qassa" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="qassa" />
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="qassa" />

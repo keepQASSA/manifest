@@ -10,12 +10,12 @@
 ### Sync ###
 #### Initialize local repository ####
 ```bash
-repo init -u ssh://git@github.com/keepQASSA/manifest -b Q
+repo init -u ssh://git@github.com/keepQASSA/manifest -b Q-rzy --depth=1 --git-lfs
 ```
 
 #### Sync ####
 ```bash
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 
 ### Build ###

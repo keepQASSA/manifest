@@ -10,7 +10,7 @@
 ### Sync ###
 #### Initialize local repository ####
 ```bash
-repo init -u ssh://git@github.com/keepQASSA/manifest -b Q
+repo init -u ssh://git@github.com/keepQASSA/manifest -b Q-dot --git-lfs
 ```
 
 #### Sync ####

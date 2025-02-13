@@ -165,6 +165,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="qassa" />
 
   <!-- External repos -->
+  <project path="external/giflib" name="external_giflib" groups="pdk,qcom_msm8x26" remote="qassa" />
   <project path="external/aac" name="external_aac" remote="qassa" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="qassa" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="qassa" />

@@ -169,7 +169,6 @@
   <project path="external/aac" name="external_aac" remote="qassa" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="qassa" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="qassa" />
-  <project path="external/chromium-libpac" name="external_chromium-libpac" remote="qassa" />
   <project path="external/cldr" name="external_cldr" remote="qassa" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="qassa" />
   <project path="external/dtc" name="external_dtc" remote="qassa" />

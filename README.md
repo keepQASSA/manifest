@@ -16,7 +16,7 @@ repo init -u ssh://git@github.com/keepQASSA/manifest -b Q --git-lfs
 
 To save space, sync without history use:
 ```bash
-repo init -u --depth=1 ssh://git@github.com/keepQASSA/manifest -b Q --git-lfs
+repo init --depth=1 -u ssh://git@github.com/keepQASSA/manifest -b Q --git-lfs
 ```
 
 #### Sync ####

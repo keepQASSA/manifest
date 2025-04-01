@@ -77,7 +77,7 @@
 
   <!-- External repos -->
   <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" remote="lineage" revision="main" >
-    <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="external/chromium-webview/Android.mk" />
     <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk" />
     <linkfile src="README" dest="external/chromium-webview/README" />
   </project>

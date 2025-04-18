@@ -9,6 +9,7 @@
 
 ### Sync ###
 #### Initialize local repository ####
+To sync with full history use:
 ```bash
 repo init -u ssh://git@github.com/keepQASSA/manifest -b Q-dot --git-lfs
 ```
@@ -21,15 +22,15 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ### Build ###
 #### Set up environment ####
 ```bash
-$ . build/envsetup.sh
+. build/envsetup.sh
 ```
 
 #### Choose a target ####
 ```bash
-$ lunch qassa_$device-userdebug
+lunch qassa_$device-userdebug
 ```
 
 #### Build the code ####
 ```bash
-$ mka qassa -j$(nproc --all)
+mka qassa -j$(nproc --all)
 ```

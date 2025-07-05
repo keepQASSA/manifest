@@ -77,7 +77,7 @@
   <!-- General repos -->
   <project path="art" name="art" remote="qassa" />
   <project path="bionic" name="bionic" remote="qassa" />
-  <project path="build/make" name="build" remote="qassa">
+  <project path="build/make" name="build" remote="qassa_beta">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -142,7 +142,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="qassa" />
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="qassa" />
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="qassa" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="qassa" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="qassa_beta" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="qassa" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="qassa" />
   <project path="packages/apps/SoftAPManager" name="packages_apps_SoftAPManager" remote="qassa" />

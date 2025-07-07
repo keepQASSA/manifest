@@ -94,7 +94,7 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="qassa" />
   <project path="development" name="development" remote="qassa" />
   <project path="device/qassa/sepolicy" name="device_qassa_sepolicy" remote="qassa" />
-  <project path="libcore" name="libcore" remote="qassa" />
+  <project path="libcore" name="libcore" remote="qassa_beta" />
   <project path="manifest" name="manifest" remote="qassa" />
   <project path="platform_testing" name="platform_testing" remote="qassa" />
 

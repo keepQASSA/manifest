@@ -95,7 +95,7 @@
   <project path="development" name="development" remote="qassa" />
   <project path="device/qassa/sepolicy" name="device_qassa_sepolicy" remote="qassa" />
   <project path="libcore" name="libcore" remote="qassa_beta" />
-  <project path="manifest" name="manifest" remote="qassa" />
+  <project path="manifest" name="manifest" remote="qassa_beta" />
   <project path="platform_testing" name="platform_testing" remote="qassa" />
 
   <!-- Hardware repos -->

@@ -76,7 +76,7 @@
 
   <!-- General repos -->
   <project path="art" name="art" remote="qassa" />
-  <project path="bionic" name="bionic" remote="qassa" />
+  <project path="bionic" name="bionic" remote="qassa_beta" />
   <project path="build/make" name="build" remote="qassa_beta">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />

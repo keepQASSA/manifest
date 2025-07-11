@@ -93,7 +93,7 @@
   <project path="build/blueprint" name="build_blueprint" remote="qassa" />
   <project path="bootable/recovery" name="bootable_recovery" remote="qassa" />
   <project path="development" name="development" remote="qassa" />
-  <project path="device/qassa/sepolicy" name="device_qassa_sepolicy" remote="qassa" />
+  <project path="device/qassa/sepolicy" name="device_qassa_sepolicy" remote="qassa_beta" />
   <project path="libcore" name="libcore" remote="qassa_beta" />
   <project path="manifest" name="manifest" remote="qassa_beta" />
   <project path="platform_testing" name="platform_testing" remote="qassa" />
@@ -224,7 +224,7 @@
   <project path="system/netd" name="system_netd" remote="qassa" />
   <project path="system/nfc" name="system_nfc" remote="qassa" />
   <project path="system/security" name="system_security" remote="qassa" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="qassa" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="qassa_beta" />
   <project path="system/timezone" name="system_timezone" remote="qassa" />
   <project path="system/tools/aidl" name="system_tools_aidl" remote="qassa" />
   <project path="system/tools/hidl" name="system_tools_hidl" remote="qassa" />

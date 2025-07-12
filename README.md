@@ -11,12 +11,12 @@
 #### Initialize local repository ####
 To sync with full history use:
 ```bash
-repo init -u ssh://git@github.com/keepQASSA/manifest -b Q --git-lfs
+repo init -u https://github.com/keepQASSA/manifest -b Q --git-lfs
 ```
 
 To save space, sync without history use:
 ```bash
-repo init --depth=1 -u ssh://git@github.com/keepQASSA/manifest -b Q --git-lfs
+repo init --depth=1 -u https://github.com/keepQASSA/manifest -b Q --git-lfs
 ```
 
 #### Sync ####

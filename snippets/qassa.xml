@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="qassa"
-          fetch="ssh://git@github.com/keepQASSA"
+          fetch="https://github.com/keepQASSA"
           revision="Q" />
 
   <remote name="qassa_beta"

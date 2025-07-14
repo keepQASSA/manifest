@@ -75,7 +75,7 @@
   <project path="frameworks/support/lottie" name="crdroidandroid/android_frameworks_support_lottie" remote="github" revision="10.0" />
 
   <!-- General repos -->
-  <project path="art" name="art" remote="qassa" />
+  <project path="art" name="art" remote="qassa_beta" />
   <project path="bionic" name="bionic" remote="qassa_beta" />
   <project path="build/make" name="build" remote="qassa_beta">
     <copyfile src="core/root.mk" dest="Makefile" />
